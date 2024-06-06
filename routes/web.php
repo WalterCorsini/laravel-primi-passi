@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home-page', function () {
+Route::get('/', function () {
     $data_home = [
         'companies' => ["Goldman Sachs","Oaktree","Elioot","Boolean",]
     ];
