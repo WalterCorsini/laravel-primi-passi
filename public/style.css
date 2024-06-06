@@ -11,6 +11,7 @@ nav{
     color: red;
 }
 h1{
+    font-size: 30px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -38,10 +39,25 @@ a:hover{
     flex-direction: column;
     gap: 10px;
     margin: auto;
+    margin-top: 50px;
     width: 50%;
 
     text-align: center;
     border: 2px solid green;
     background-color: lightgreen;
+    padding: 10px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+
+    text-align: center;
+    border: 2px solid red;
+    background-color: lightpink;
     padding: 10px;
 }

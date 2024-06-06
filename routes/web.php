@@ -17,16 +17,22 @@ Route::get('/home-page', function () {
     return view('index');
 })->name('index');
 
+
 Route::get('/pagina-contatti', function () {
-    $data =[
+    $data_contact =[
         'phone' =>  '3339933932',
         'email' =>  'nome@email.it',
         'fax'   =>  '0833444430'
     ];
-    return view('contact',$data);
+    return view('contact',$data_contact);
 })->name('contact');
 
+
+
 Route::get('/pagina-chi-siamo', function () {
-    return view('about');
+    $data_about =[
+        'message' => 'siamo leader nel settore ed offriamo una vasta gamma di servizi'
+    ];
+    return view('about',$data_about);
 })->name('about');
 

@@ -17,5 +17,10 @@
         </ul>
     <h1>About</h1>
     </nav>
+    <main>
+        <div class="about">
+            {{ $message }}
+        </div>
+    </main>
 </body>
 </html>
