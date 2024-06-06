@@ -12,8 +12,17 @@
         <link rel="stylesheet" type="text/css" href="{{ URL::asset('style.css') }}">
     </head>
     <body class="antialiased">
-        <div>
-            <h1>Hello World!</h1>
-        </div>
+        <nav>
+            <ul>
+                {{-- --}}
+                <li><a href="{{ route('index') }}">Home</a></li>
+                <li><a href="{{ route('contact') }}">Contatti</a></li>
+                <li><a href="{{ route('about') }}">Chi Siamo</a></li>
+            </ul>
+        <h1>Home Page</h1>
+        </nav>
+        <main>
+            
+        </main>
     </body>
 </html>

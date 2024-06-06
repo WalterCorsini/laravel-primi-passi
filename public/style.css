@@ -1,5 +1,28 @@
-body{
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+h1{
+    margin-block-end: 0;
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+ul{
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    list-style: none;
+}
+a{
     color: red;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
 }
