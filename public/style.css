@@ -10,7 +10,7 @@ nav{
     align-items: center;
     color: red;
 }
-h1{
+h2{
     font-size: 30px;
     position: absolute;
     left: 50%;
@@ -41,7 +41,6 @@ a:hover{
     margin: auto;
     margin-top: 50px;
     width: 50%;
-
     text-align: center;
     border: 2px solid green;
     background-color: lightgreen;
@@ -55,9 +54,21 @@ a:hover{
     margin: auto;
     margin-top: 50px;
     width: 50%;
-
     text-align: center;
     border: 2px solid red;
     background-color: lightpink;
+    padding: 10px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+    border: 2px solid gold;
+    background-color: lightyellow;
     padding: 10px;
 }

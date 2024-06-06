@@ -19,10 +19,23 @@
                 <li><a href="{{ route('contact') }}">Contatti</a></li>
                 <li><a href="{{ route('about') }}">Chi Siamo</a></li>
             </ul>
-        <h1>Home Page</h1>
+        <h2>Home Page</h2>
         </nav>
         <main>
-            
+            <div class="home">
+                <h1>benvenuti nella home page di usiamo tutti laravel è perche!!!</h1>
+                <p> qui una serie di aziende che supportano il nostro progetto credendo ciecamente in noi: </p>
+                {{-- foreach and using $loop --}}
+                @foreach ($companies as $item)
+                    {{ $item }}
+                    @if ($loop->last)
+                    .
+                  @else
+                    ,
+                  @endif
+                @endforeach
+                </ul>
+            </div>
         </main>
     </body>
 </html>

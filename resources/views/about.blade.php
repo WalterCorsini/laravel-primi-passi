@@ -15,7 +15,7 @@
             <li><a href="{{ route('contact') }}">Contatti</a></li>
             <li><a href="{{ route('about') }}">Chi Siamo</a></li>
         </ul>
-    <h1>About</h1>
+    <h2>About</h2>
     </nav>
     <main>
         <div class="about">

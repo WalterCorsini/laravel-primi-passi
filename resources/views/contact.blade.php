@@ -14,11 +14,11 @@
             <li><a href="{{ route('contact') }}">Contatti</a></li>
             <li><a href="{{ route('about') }}">Chi Siamo</a></li>
         </ul>
-    <h1>Contact</h1>
+    <h2>Contact</h2>
     </nav>
     <main>
         <div class="contact">
-            <h2>dove puoi contattarci?</h2>
+            <h1>dove puoi contattarci?</h1>
             <span> Telefono: {{ $phone }}</span>
             <span> Fax:  {{ $fax }}</span>
             <span> E-mail: {{ $email }}</span>

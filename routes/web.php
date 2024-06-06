@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home-page', function () {
-    return view('index');
+    $data_home = [
+        'companies' => ["Goldman Sachs","Oaktree","Elioot","Boolean",]
+    ];
+    return view('index',$data_home);
 })->name('index');
 
 
